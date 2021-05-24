@@ -1,0 +1,240 @@
+/* Particles JS */
+canvas{
+    display: block;
+}
+#particles-js{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #0080a9;
+    background-image: url(https://marcbruederlin.github.io/particles.js/img/background.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: cover;
+}
+
+/* Cos */
+body{
+    margin:0;
+    font:normal 75% Arial, Helvetica, sans-serif;
+}
+
+/* Pàgina inici */
+.text {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%,-47%);
+    color: white;
+    max-width: 90%;
+    max-height: 90%;
+    padding: 2em 3em; 
+    background: rgba(0, 0, 0, 0.2);
+    text-shadow: 0px 0px 2px #131415;
+    font-family: 'Open Sans', sans-serif;
+    font-size: medium;
+    width: 75%;
+    text-align: center;
+}
+.text h1{
+    text-align: center;
+    font-size: 400%;
+    margin: 3%;
+    margin-bottom: 8%;
+}
+.text h2{
+    text-align: center;
+    font-size: 150%;
+    margin: 3%;
+}
+.text h3{
+    text-align: center;
+    font-size: 120%;
+    margin: 3%;
+    margin-top: 14%;
+}
+.text button{
+    background-color: rgba(0, 0, 0, 0);
+    border: rgba(255, 255, 255, 0.7) solid 1px;
+    color: white;
+    padding: 15px;
+    font-size: 90%;
+}
+
+/* Pàgina comandes */
+.text-comandes {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%,-47%);
+    color: white;
+    max-width: 90%;
+    max-height: 90%;
+    padding: 2em 3em; 
+    background: rgba(0, 0, 0, 0.2);
+    text-shadow: 0px 0px 2px #131415;
+    font-family: 'Open Sans', sans-serif;
+    font-size: medium;
+    width: 75%;
+    height: 90%;
+    text-align: left;
+    overflow: scroll;
+    overflow-x: hidden; 
+}
+.text-comandes h1{
+    text-align: left;
+    font-size: 300%;
+    margin-bottom: 5%;
+}
+.text-comandes h2{
+    text-align: left;
+    font-size: 200%;
+    margin: 3%;
+}
+.text-comandes p{
+    text-align: left;
+    font-size: 110%;
+    margin: 3%;
+    margin-left: 5%;
+}
+
+/* Pàgina error 404 */
+.text-404 {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%,-47%);
+    color: white;
+    max-width: 90%;
+    max-height: 90%;
+    padding: 2em 3em; 
+    background: rgba(0, 0, 0, 0.2);
+    text-shadow: 0px 0px 2px #131415;
+    font-family: 'Open Sans', sans-serif;
+    font-size: medium;
+    text-align: center;
+}
+.text-404 h1{
+    font-size: 600%;
+}
+.text-404 h2{
+    font-size: 400%;
+}
+.text-404 hr.hr-404{
+    color: #ffffff;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Menú de navegació */
+header{
+    position: fixed;
+}
+.nav{
+    background-color: #0080a9;
+    border-bottom: rgba(255, 255, 255, 0.7) solid 1px;
+}
+.nav-right{
+    background-color: #0080a9;
+}
+.nav-item{
+    background-color: #0080a9;
+}
+.nav-item a, a.nav-item{
+    color: rgba(255,255,255,0.7);
+}
+.nav-item a, a.nav-item:hover{
+    color: rgba(255,255,255,1);
+}
+.nav-item a.is-active, a.nav-item.is-active {
+    color: #ffffff;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+/* Scroll bar customitzada */
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+/* Track */
+::-webkit-scrollbar-track {
+background: #f1f1f1; 
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+background: #888; 
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+background: #555; 
+}
+
+.icon {
+    display: none;
+}
+
+/* Mòbil */
+@media only screen and (max-width: 600px) {
+    .text h1{
+        text-align: center;
+        font-size: 300%;
+        margin: 3%;
+        margin-bottom: 8%;
+        width: auto;
+    }
+    .text-comandes {
+        width: 90%;
+    }
+
+    /* Style the navigation menu */
+    .topnav {
+        overflow: hidden;
+        background-color: #0080a9;
+        position: relative;
+    }
+    
+    /* Hide the links inside the navigation menu (except for logo/home) */
+    .topnav #myLinks {
+        display: none;
+    }
+    
+    /* Style navigation menu links */
+    .topnav a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+    }
+    
+    /* Style the hamburger menu */
+    .topnav a.icon {
+        background: #0080a9;
+        display: block;
+        position: fixed;
+        right: 30px;
+        font-size: 250%;
+        /* top: 0; */
+    }
+    
+    /* Add a grey background color on mouse-over */
+    .topnav a:hover {
+        background-color: #0080a9;
+        color: #0080a9;
+    }
+    
+    /* Style the active link (or home/logo) */
+    .active {
+        display: hidden;
+    }
+    .container .nav-item{
+        left: 0;
+        top: -5px;
+    }
+}
