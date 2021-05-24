@@ -1,0 +1,11 @@
+https://discord.com/developers/applications/837340929950089247/information
+
+https://discordapi.com/permissions.html
+
+https://discord.com/oauth2/authorize?client_id=837340929950089247&scope=bot&permissions=4294967304
+
+npm init -y
+
+npm i discord.js
+
+npm i @top-gg/sdk

@@ -1,0 +1,12 @@
+{
+    "prefix":"jr!",
+    "token":"",
+    "idAdmin":"",
+    "dbHost":"localhost",
+    "dbUser":"",
+    "dbPassword":"",
+    "dbDatabase":"jromero_m12",
+    "time_between_reset_invocacions": 3600000,
+    "time_between_dailyCommand": 86400000,
+    "time_between_cdReclamar": 10800000
+}
